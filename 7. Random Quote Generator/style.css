@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background: linear-gradient(to bottom right, lightgreen, lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width: 60%;
+    background-color: rgba(240, 248, 255,0.3);
+    padding: 20px 50px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.25);
+}
+
+.heading{
+    font-size: 2.25rem;
+    margin: 30px 0px; 
+}
+.quote{
+    font-size: 1.25rem;
+    margin: 0px 5px;
+}
+
+.author{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(128,128,128,1);
+    font-weight: 400;
+    margin: 20px;
+}
+
+.btn{
+    background-color: rgba(152, 251, 152,0.75);
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-color: rgba(152, 251, 152,0.85);
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+}
+.btn:hover{
+    background-color: rgba(97, 170, 97,0.5);
+}

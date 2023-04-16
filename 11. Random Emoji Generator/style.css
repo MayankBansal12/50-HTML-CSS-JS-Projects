@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: palevioletred;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading{
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+.btn{
+    font-size: 4rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    border: none;
+    filter: grayscale();
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn:hover{
+    filter: grayscale(0);
+}
+.emoji-name{
+    color: blue;
+    font-weight: 600;
+    font-size: 1.1rem;
+}

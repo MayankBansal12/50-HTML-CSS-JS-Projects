@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.website-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/596710/pexels-photo-596710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    text-align: center;
+}
+
+h1{
+    color: #ff1a1a;
+    font-size: 3.5rem;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.active.website-container{
+    filter: blur(3px) brightness(0.7);
+}
+
+.popup-container{
+    position: fixed;
+    width: 400px;
+    background-color: white;
+    top: 30%;
+    left: 50%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.close-btn{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+}
+h4{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.2rem;
+    padding: 5px;
+    color: grey;
+}
+.popup-container .btn{
+    margin-top: 25px;
+}
+
+.active.popup-container{
+    visibility: hidden;
+    opacity: 0;
+}

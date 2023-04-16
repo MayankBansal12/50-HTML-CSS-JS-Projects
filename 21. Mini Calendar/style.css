@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: monospace;
+}
+.container{
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.month{
+    margin: 0;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.day{
+    font-size: 1.1rem;
+    color: darkgray;
+}
+.date{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+.year{
+    font-size: 1.25rem;
+    color: darkgray;
+}

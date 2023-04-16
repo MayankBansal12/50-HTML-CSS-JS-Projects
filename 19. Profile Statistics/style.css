@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+}
+
+.stats-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    border: dotted green;
+    width: 220px;
+    height: 150px;
+    position: relative;
+}
+.stats-container i{
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    transform: translateX(-50%);
+}
+.counter{
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    color: green;
+}
+.stats-container h4{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5%;
+    white-space: nowrap;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        flex-direction: column;
+    }
+}

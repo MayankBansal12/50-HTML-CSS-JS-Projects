@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url("https://wallpapertag.com/wallpaper/full/b/1/2/951953-top-cool-sunset-backgrounds-3554x1999-for-computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    overflow: hidden;
+}
+
+h2{
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.clock{
+    font-size: 2rem;
+    width: 500px;
+    display: flex;
+    text-align: center;
+}
+.clock div{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: rgba(36,50,138,255);
+    border-radius: 3px;
+    color: whitesmoke;
+    position: relative;
+    opacity: 0.85;
+}
+.clock span{
+    text-transform: uppercase;
+    padding: 10px;
+    height: 60px;
+    font-size: 3rem;
+    width: 100px;
+}
+.clock .text{
+    background-color: darkblue;
+    height: 20px;
+    font-size: 1rem;
+    opacity: 1;
+}
+.clock #am{
+    height: 40px;
+    margin-top: 85px;
+    opacity: 1;
+}
+#am span{
+    font-size: 1.2rem;
+    width: 50px;
+}

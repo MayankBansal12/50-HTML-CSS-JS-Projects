@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Trailer Popup</title>
+    <!-- CDN for Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Youtube API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://th.bing.com/th/id/OIP.UhcUm0DF3nCoMSCL2cXR0AHaEc?w=268&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+        <h2>Image Title</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam sit dignissimos dolores repellat deserunt necessitatibus ad officia animi sunt. Praesentium corrupti eos quia hic tempora et iusto magnam, dolore explicabo debitis, quasi, beatae suscipit amet.</p>
+        <button class="btn">Watch Now</button>
+    </div>
+    <div class="trailer active">
+        <iframe id="video-player" src="https://www.youtube.com/embed/5Peo-ivmupE"></iframe>
+        <i class="fa-solid fa-xmark fa-2x close-icon"></i>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

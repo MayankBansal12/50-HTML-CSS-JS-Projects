@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(39, 39, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+.mouse-event{
+    position: relative;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 25px;
+    min-width: 150px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.mouse-event h4{
+    position: absolute;
+    top: -70px;
+    left: 0%;
+}
+.mouse-event p{
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+    }
+    .mouse-event{
+        margin: 40px;
+    }
+}

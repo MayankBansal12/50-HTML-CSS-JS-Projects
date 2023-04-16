@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right bottom, rgb(96, 210, 210),rgb(122, 235, 122));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+.container{
+    background-color: rgba(240, 248, 255,0.3);
+    padding: 30px;
+    border-radius: 15px;
+}
+h1{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+.heading{
+    font-size: 1.2rem;
+    color: rgb(98, 96, 96);
+    opacity: 0.6;
+}
+.input{
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border-color: rgba(240, 248, 255,0.5);
+    padding: 5px 15px;
+    background-color: rgba(240, 248, 255,0.4);
+    font-size: 1.05rem;
+}
+#bmi{
+    color: rgba(98, 96, 96,0.8);
+}
+
+.btn{
+    width: 65%;
+    height: 40px;
+    margin: 45px 20px 0px;
+    border-radius: 5px;
+    background-color: rgb(90, 223, 90);
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: rgba(90, 223, 90,0.5);
+}
+#weight-condition{
+    font-size: 1.25rem;
+    color: rgba(98, 96, 96,0.85);
+}

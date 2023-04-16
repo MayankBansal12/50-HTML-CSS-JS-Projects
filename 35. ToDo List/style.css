@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.form{
+    background-color: rgba(255, 182, 193, 0.75);
+    position: absolute;
+    top: 30%;
+    width: 500px;
+    border-radius: 10px;
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.input::placeholder{
+    color: darkgray;
+}
+
+.task_lists{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.task_lists li{
+    padding: 15px 20px;
+    border-top: dotted;
+    border-color: darkgray;
+    position: relative;
+    font-size: 1.2rem;
+}
+.task_lists i{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.task_lists i.check{
+    color: green;
+    right: 45px;
+}
+.task_lists i.delete{
+    color: red;
+}
+
+.task_lists li.checked{
+    text-decoration: line-through;
+    color: gray;
+}
+li.checked .check{
+    color: gray;
+}

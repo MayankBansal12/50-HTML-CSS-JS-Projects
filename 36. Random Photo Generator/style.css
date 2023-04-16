@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: burlywood;
+    margin-block: 20px;
+}
+
+.image-container{
+    text-align: center;
+}
+.image-container img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.9);
+    background-color: gainsboro;
+}
+
+.btn{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 7px;
+    background-color: slateblue;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    opacity: 0.9;
+}

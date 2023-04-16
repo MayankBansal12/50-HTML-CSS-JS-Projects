@@ -1,0 +1,30 @@
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.container{
+    background-color: darkcyan;
+    padding: 30px;
+    border-radius: 10px;
+    color: rgba(0,0,0,0.6);
+    font-size: 1.05rem;
+}
+.heading{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+input{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 1.05rem;
+}
+.payment{
+    font-size: 1.2rem;
+    color: aliceblue;
+}

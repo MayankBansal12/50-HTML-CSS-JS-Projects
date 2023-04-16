@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.split{
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url("https://o.remove.bg/downloads/c010ac4a-86da-4c85-a725-644659413b7e/image-removebg-preview.png");
+}
+
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: aliceblue;
+    background-image: url("https://o.remove.bg/downloads/28e1df32-831c-459e-981f-cd5ecc26f90b/image-removebg-preview.png");
+    /* background-size: contain; */
+}
+
+h1{
+    font-size: 100px;
+    backdrop-filter: brightness(0.5);
+    color: aliceblue;
+}
+
+.btn{
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    border: 4px solid;
+    transition: 0.85s background-color;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.active-left .right{
+    width: 25%;
+}
+.active-left .left{
+    width: 75%;
+}
+
+.active-right .left{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+
+.left,.right{
+    transition: 1s width ease;
+}

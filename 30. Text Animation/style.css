@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap');
+
+
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: cursive;
+    /* font-family: 'Hind Siliguri', sans-serif; */
+}
+
